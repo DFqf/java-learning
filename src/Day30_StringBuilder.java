@@ -1,6 +1,9 @@
 public class Day30_StringBuilder {
     public static void main(String[] args)
     {
+
+        //StringBuilder 用于连续拼接大量文字；用 append() 追加内容，最后可通过 toString() 转成 String。
+
         //创建一个“可不断追加文字”的对象
         StringBuilder report =new StringBuilder();
 
